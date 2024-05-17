@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 800px) {
+    .scroled-page{
+        width: 100%;
+        margin: 0 20px;
+    }
+    .scroled-page p{
+        font-size: 15px;
+    }
+}

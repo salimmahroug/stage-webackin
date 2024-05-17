@@ -1,0 +1,50 @@
+.link-to{
+    text-decoration: none;
+    margin-right: 30%;
+    margin-left: 10px;
+    color: rgb(104, 76, 131);
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+}
+.icones-left {
+    width: 13px;
+    margin-right: 6px;
+}
+.navbar p {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(144, 114, 173);
+}
+.navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    padding: 15px ;
+    border: 0.5px solid rgb(164, 162, 162);
+    border-radius: 10px;
+    align-items: center;
+}
+.checkbox {
+    margin-left: 20px;
+}
+.checkbox span {
+    color: rgb(104, 76, 131);
+    margin-left: 6px;
+}
+.navbar input {
+    position: relative;
+    bottom: 2px;
+    height: 15px;
+    width: 15px;
+}
+@media screen and (max-width: 765px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .link-to{
+        margin-right: 0;
+    }
+}

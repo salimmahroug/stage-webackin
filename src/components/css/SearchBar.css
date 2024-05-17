@@ -1,0 +1,15 @@
+input {
+    height: 34px;
+    width: 97%;
+    border: 0.3px solid rgba(159, 157, 157, 0.589);
+    border-radius: 200px;
+    padding-left: 30px;
+}
+input::placeholder {
+    color: rgba(128, 128, 128, 0.649);
+}
+.calc{
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: 500;
+}

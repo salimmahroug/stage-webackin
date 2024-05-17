@@ -1,0 +1,12 @@
+.submit-button {
+    background-color: rgb(104, 76, 131);
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+    font-size: 12px;
+}
+
+.submit-button:hover {
+    background-color: rgb(136, 99, 170);
+}
