@@ -4,7 +4,7 @@ import { Button } from './Button';
 import { contex } from '../AppContex';
 
 function SearchBar({ onFilterChange, calcule }) {
-    const data = useContext(contex)
+    const data = useContext(contex);
     const [inputValue, setInputValue] = useState('');
 
     const handleChange = (event) => {

@@ -1,16 +1,14 @@
 import './App.css'
 import AppRoutes from "./routes/Routes";
-import { data } from "./Data";
-import { contex } from "./AppContex";
+import { AppProvider } from "./AppContex";
 
 function App() {
   return (
     <div >
-      <contex.Provider value={data}>
+      <AppProvider>
         <AppRoutes />
-      </contex.Provider>
+      </AppProvider>
     </div>
   );
 }
-
 export default App;
